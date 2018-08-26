@@ -1,0 +1,119 @@
+15 
+Sunday
+TODO: 
+    finished UML
+    started plan of attack
+    decide on design patterns 
+    Learn Git 
+
+All:
+    Learn Git 
+
+
+16 
+Monday 
+TODO: 
+    Implement one instance of all classes
+    Read in from file and print out floor
+    Make main 
+    Try to compile and run 
+
+Helen:  Read in from file and print out floor
+        Make main  
+
+Dani:  Implement one instance of all classes
+
+Christina:  Read in from file and print out floor 
+            Make main 
+
+All: Try to compile and run and set up git properly 
+
+MEETING: 7:30/8 PM 
+
+17
+Tuesday
+TODO:     
+    Fix issues
+    
+
+Helen: Fix issues
+
+Dani: Fix issues
+
+Christina:  Fix issues
+
+
+
+
+18
+Wednesday
+TODO: Create all characters and Items 
+
+
+Helen: Enemies 
+
+Dani: Characters 
+
+Christina: Potions 
+
+
+MEETING: 8PM 
+
+
+
+19
+Thursday
+TODO:
+    Degub Wednesday
+    Asks questions 
+
+Helen: Fix issues 
+Dani: Fix issues 
+Christina: Fix issues 
+
+
+
+
+20 
+Friday
+TODO: 
+    LAST DEBUG 
+
+Helen: Fix issues 
+Dani: Fix issues 
+Christina: Fix issues 
+
+
+MEETING: TUT CENTRE 
+
+
+21 
+Saturday
+TODO: Work trough issues
+        Add enhancements 
+
+
+
+
+22
+Sunday
+TODO: Work trough issues
+        Add enhancements 
+
+
+
+
+
+
+
+
+
+
+
+5. How could you generate items so that the generation of Treasure and Potions reuses as much
+code as possible? That is, how would you structure your system so that the generation of a potion and then
+generation of treasure does not duplicate code? 
+
+A. For our items generation we create a superclass Item for both Treasure and the Potions, since both "enhance" the PC when the PC takes the item. From this superclass we created abstract parent classes
+for Potion and Treasure since Potion is different in that it enhances mainly the HP, Atk and Def of the PC while the treasure will only add to the Gold of the PC. Creating this abstract classes will help us in our code duplication 
+in that we will use the method of the parent classes whenever the PC takes the item, still since they have different effect we have more methods that would differ.

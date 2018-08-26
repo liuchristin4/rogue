@@ -1,0 +1,74 @@
+cmake_minimum_required(VERSION 3.10)
+project(cc3k)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+
+add_executable(cc3k-final-project
+        BD.h
+        BD.cpp
+        BA.h
+        BA.cpp
+        cell.h
+        cell.cpp
+        character.h
+        character.cc
+        coordinate.h
+        dragon.h
+        dragon.cc
+        dragonhoard.h
+        dragonhoard.cpp
+        drow.h
+        drow.cc
+        dwarf.h
+        dwarf.cc
+        elf.h
+        elf.cc
+        enemy.h
+        enemy.cc
+        floor.h
+        floor.cc
+        goblin.h
+        goblin.cc
+        halfling.h
+        halfling.cc
+        human.h
+        human.cc
+        item.h
+        item.cpp
+        merchant.h
+        merchant.cc
+        MerchantHoard.h
+        MerchantHoard.cpp
+        normal.h
+        normal.cpp
+        observer.h
+        orc.h
+        orc.cc
+        PH.h
+        PH.cpp
+        playerCharacter.h
+        playerCharacter.cc
+        potion.h
+        RH.h
+        RH.cpp
+        shade.h
+        shade.cc
+        small.h
+        small.cpp
+        subject.h
+        subject.cpp
+        textdisplay.h
+        textdisplay.cpp
+        treasure.h
+        troll.h
+        troll.cc
+        vampire.h
+        vampire.cc
+        WA.h
+        WA.cpp
+        WD.h
+        WD.cpp
+        main.cc
+        )
